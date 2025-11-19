@@ -1,6 +1,8 @@
 ### Features
 The SAMMI devs kinda refuse to add an easy way to create functions, so we have to use some fatures to build around that. You could also use extensions butthat would require you  to have Bridge open for your new commands to work. This method SHOULD work without bridge open from my tests.
 
+I have included an Example Deck in the Folder Deck that can be importet and will work, it SHOULD work.
+
 
 # Calling Buttons in SAMMI with parameters and returns!
 ### Developer Mode
