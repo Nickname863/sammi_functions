@@ -32,7 +32,9 @@ Replace this id with the two in the example ini if you use it.
 ## Preparing a command
 Create a command Button. After creating it ricghtclick it and edit it's settings.
 These are a bit of a prteference, as you might want them to Queue or Overlap (consider race cionditions in that case). However we do not want the Button to persist the local variables, every press should be unique.
+
 [![](https://github.com/Nickname863/sammi_functions/blob/main/images/commandButtonSettings.PNG?raw=true)](https://github.com/Nickname863/sammi_functions/blob/main/images/commandButtonSettings.PNG?raw=true)
+
 Now set a trigger. I simply choose "!command *".
 [![](https://github.com/Nickname863/sammi_functions/blob/main/images/commandTriggers.PNG?raw=true)](https://github.com/Nickname863/sammi_functions/blob/main/images/commandTriggers.PNG?raw=true)
 
