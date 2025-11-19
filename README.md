@@ -8,6 +8,7 @@ I have included an Example Deck in the Folder Deck that can be importet and will
 ### Developer Mode
 For a part of this process we need to access SAMMIs Developer mode.
 Without it we will later not be able to set Button Instance variable.
+
 [![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/activate_developer_mode.gif)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/activate_developer_mode.gif)
 
 ### Debugging with SAMMI
