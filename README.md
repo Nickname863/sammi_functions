@@ -7,7 +7,7 @@ I have included an Example Deck in the Folder Deck that can be importet and will
 # Calling Buttons in SAMMI with parameters and returns!
 ### Developer Mode
 For a part of this process we need to access SAMMIs Developer mode.
-Without it we will later not be able to set Button Instance variable.
+Without it we will later not be able to set Button Instance variable. You enable it by clicking 10 on refresh in the settings.
 
 [![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/activate_developer_mode.gif)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/activate_developer_mode.gif)
 
