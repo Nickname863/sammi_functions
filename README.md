@@ -13,12 +13,10 @@ Oh and if it is too clunky for you don't feel pressured to use this method.
 Quick Rundown:
 
 - Calling Button and "function Button" should have the setting "Local Variables Persist" set to OFF
+- Calling Button needs to Create an object and Fill properties that the "function button" can pull
 - Calling Button needs to use "Trigger Extension Triggers" and "Wait until Variable exists"
 - "Function Button" needs a trigger of type "Extension trigger" the message is basically the name used to call the function
 - Inside the "Function Button" you need to use "Set Button Insatnce Variable" to set a variable in the caller, you can pull the "button_id" and "instance_id"
-
-
-
 
 
 
