@@ -7,13 +7,14 @@ Take care. I do have an example Deck attached, but without reading the Guide the
 
 
 Also i am no SAMII expert so if i did something weird it might just be inexperience.
+Oh and if it is too clunky for you don't feel pressured to use this method.
 
 
 Quick Rundown For you:
 
 - Calling Button and "function Button" should have the setting "Local Variables Persist" set to OFF
 - Calling Button needs to use "Trigger Extension Triggers" and "Wait until Variable exists"
-- "Function Button" needs a trigger of type "Extension trigger" the message is basically the calling name
+- "Function Button" needs a trigger of type "Extension trigger" the message is basically the name used to call the function
 - Inside the "Function Button" you need to use "Set Button Insatnce Variable" to set a variable in the caller, you can pull the "button_id" and "instance_id"
 
 
