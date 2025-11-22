@@ -3,6 +3,9 @@ I should just put this at the top, because i do not know how you run your setup.
 This should not be really that much of an issue i think. But some people do stuff like never restarting their PC, so if you rely on some temp variables in your specific setup to be filled (so you never close SAMMI) i do not want to be the reason you reset them.
 Take care. I do have an example Deck attached, but without reading the Guide the deck makes no sense anyway and afterward you won't need the example Deck.
 
+[![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)
+
+
 Also i am no SAMII expert so if i did something weird it might just be inexperience.
 
 
@@ -15,7 +18,7 @@ Quick Rundown For you:
 
 
 
-[![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)
+
 
 
 ### Features
