@@ -1,13 +1,25 @@
 #### Warning
 I should just put this at the top, because i do not know how you run your setup. But if you swithc into dev mode it will refresh your decks and clear all temporary variables.
-This should not be really that much of an issue i think. But some people do stuff like never restarting their PC, so if you rely on some temp variables in your specific setup to be filled i do not want to be the reason you reset them.
+This should not be really that much of an issue i think. But some people do stuff like never restarting their PC, so if you rely on some temp variables in your specific setup to be filled (so you never close SAMMI) i do not want to be the reason you reset them.
 Take care. I do have an example Deck attached, but without reading the Guide the deck makes no sense anyway and afterward you won't need the example Deck.
+
+Also i am no SAMII expert so if i did something weird it might just be inexperience.
+
+
+Quick Rundown For you:
+
+- Calling Button and "function Button" should have the setting "Local Variables Persist" set to OFF
+- Calling Button needs to use "Trigger Extension Triggers" and "Wait until Variable exists"
+- "Function Button" needs a trigger of type "Extension trigger" the message is basically the calling name
+- Inside the "Function Button" you need to use "Set Button Insatnce Variable" to set a variable in the caller, you can pull the "button_id" and "instance_id"
+
+
 
 [![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)
 
 
 ### Features
-The SAMMI devs kinda refuse to add an easy way to create functions, so we have to use some fatures to build around that. You could also use extensions butthat would require you  to have Bridge open for your new commands to work. This method SHOULD work without bridge open from my tests.
+The SAMMI devs kinda refuse to add an easy way to create functions, so we have to use some fatures to build around that. You could also use extensions but that would require you to have Bridge open for your new commands to work. This method SHOULD work without bridge open from my tests.
 
 I have included an Example Deck in the Folder Deck that can be importet and will work, it SHOULD work.
 
@@ -15,7 +27,8 @@ I have included an Example Deck in the Folder Deck that can be importet and will
 # Calling Buttons in SAMMI with parameters and returns!
 ### Developer Mode
 For a part of this process we need to access SAMMIs Developer mode.
-Without it we will later not be able to set Button Instance variable. You enable it by clicking 10 on refresh in the settings.
+Without it we will later not be able to set Button Instance variable. You enable it by clicking 10 on refresh in the settings. 
+(Dev Commands you add will not vanish from your deck and you can move and copy them like normal.)
 
 [![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/activate_developer_mode.gif)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/activate_developer_mode.gif)
 
