@@ -10,7 +10,7 @@ Also i am no SAMII expert so if i did something weird it might just be inexperie
 Oh and if it is too clunky for you don't feel pressured to use this method.
 
 
-Quick Rundown For you:
+Quick Rundown:
 
 - Calling Button and "function Button" should have the setting "Local Variables Persist" set to OFF
 - Calling Button needs to use "Trigger Extension Triggers" and "Wait until Variable exists"
