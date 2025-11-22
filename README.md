@@ -1,3 +1,11 @@
+#### Warning
+I should just put this at the top, because i do not know how you run your setup. But if you swithc into dev mode it will refresh your decks and clear all temporary variables.
+This should not be really that much of an issue i think. But some people do stuff like never restarting their PC, so if you rely on some temp variables in your specific setup to be filled i do not want to be the reason you reset them.
+Take care. I do have an example Deck attached, but without reading the Guide the deck makes no sense anyway and afterward you won't need the example Deck.
+
+[![](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)](https://raw.githubusercontent.com/Nickname863/sammi_functions/refs/heads/main/images/warning.PNG)
+
+
 ### Features
 The SAMMI devs kinda refuse to add an easy way to create functions, so we have to use some fatures to build around that. You could also use extensions butthat would require you  to have Bridge open for your new commands to work. This method SHOULD work without bridge open from my tests.
 
